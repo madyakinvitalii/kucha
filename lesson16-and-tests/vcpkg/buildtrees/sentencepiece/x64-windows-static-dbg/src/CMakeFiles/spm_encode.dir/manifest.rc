@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/pythonProject/lesson16-and-tests/vcpkg/buildtrees/sentencepiece/x64-windows-static-dbg/src/CMakeFiles/spm_encode.dir/embed.manifest"

@@ -1,0 +1,2 @@
+C:/pythonProject/lesson16-and-tests/vcpkg/buildtrees/detect_compiler/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/pythonProject/lesson16-and-tests/vcpkg/buildtrees/detect_compiler/x64-windows-rel/CMakeFiles/rebuild_cache.dir

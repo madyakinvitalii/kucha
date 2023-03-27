@@ -1,0 +1,9 @@
+Package: sentencepiece
+Version: 0.1.97
+Port-Version: 2
+Depends: vcpkg-cmake:x64-windows
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 8f7d5a4620ed4585b813f78af342fd3bf9a6832c6e98a862916fccda42b54f1b
+Description: SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training
+Status: install ok half-installed

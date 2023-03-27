@@ -1,0 +1,114 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/sentencepiece-x64-windows-static-0.1.97#2-decb8230-20ec-46a4-8b1a-704b6653dcaf",
+  "name": "sentencepiece:x64-windows-static@0.1.97#2 8f7d5a4620ed4585b813f78af342fd3bf9a6832c6e98a862916fccda42b54f1b",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-538539c4e364dd6f14f5e36f6704144254845159"
+    ],
+    "created": "2023-03-09T10:03:19Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "DEPENDENCY_MANIFEST_OF",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "sentencepiece",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "0.1.97#2",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg#ports/sentencepiece",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "SentencePiece is an unsupervised text tokenizer and detokenizer mainly for Neural Network-based text generation systems where the vocabulary size is predetermined prior to the neural model training",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "sentencepiece:x64-windows-static",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "8f7d5a4620ed4585b813f78af342fd3bf9a6832c6e98a862916fccda42b54f1b",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "Apache-2.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "google/sentencepiece",
+      "downloadLocation": "git+https://github.com/google/sentencepiece@58f256cf6f01bb86e6fa634a5cc560de5bd1667d",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "9abe21f76aa025d35a0210bc1a5b0c6f2bb2ab9f626ef9d59bcd8950442036af048ca3945db311d80ff378d41f984a941f39c206e2aa006f1ca0278426d03932"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0c3f3f132111ef80b45553076b6fda8ba8c01894d23df4a6f36af636f9786aa2"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4166a323d3a990182f1367e8cf6f1629df4b01ff2299c9aa8bd76f71224db6ad"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

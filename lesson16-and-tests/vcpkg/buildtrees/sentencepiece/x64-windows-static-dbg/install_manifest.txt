@@ -1,0 +1,9 @@
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/lib/sentencepiece.lib
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/lib/sentencepiece_train.lib
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/bin/spm_encode.exe
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/bin/spm_decode.exe
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/bin/spm_normalize.exe
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/bin/spm_train.exe
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/bin/spm_export_vocab.exe
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/include/sentencepiece_trainer.h
+C:/pythonProject/lesson16-and-tests/vcpkg/packages/sentencepiece_x64-windows-static/debug/include/sentencepiece_processor.h
